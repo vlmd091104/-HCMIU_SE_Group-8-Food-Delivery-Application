@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA_Compatible" content="IE=edge">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <title>My fda website</title>
+    <link rel="icon" type="image/png" href="images/iu favicon.png">
+</head>
+<body>
+    <form action="index.php" method="post"><!--use enctype="multipart/form-data" if there is image upload-->
+        <label for="username">username:</label>
+        <input type="text" id="username" placeholder="Enter your username" minlength="6" maxlength="25" required><br>
+        
+        <label for="password">password:</label>
+        <input type="password" id="password" placeholder="Enter your password" minlength="8" required><br>
+
+        <label for="email">email:</label>
+        <input type="email" id="email" placeholder="sample@gmail.com" minlength="8" required><br>
+
+        <label for="phone">phone No:</label>
+        <input type="tel" id="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" minlength="8" required><br>
+        
+        <label for="bday">birthdate:</label>
+        <input type="date" id="bday" required><br>
+
+        <label for="role">role:</label>
+        
+        <label for="user">User</label>
+        <input type="radio" id="user" value="user" name="role">
+        <label for="admin">Admin</label>
+        <input type="radio" id="admin" value="admin" name="role">
+
+        <!--use this for cart
+        <label for="quantity">quantity:</label>
+        <input type="number" id="quantity" min="1" value="1"><br>
+        -->
+        <!--
+        <label for="payment">payment</label>
+        <select id="payment">
+            <option value="visa">visa</option>
+            <option value="master card">master card</option>
+            <option value="cash">cash</option>
+        </select>
+        -->
+        <!--use to check what to take in cart
+        <label for="subscribe">subscribe:</label>
+        <input type="checkbox" id="subscribe"><br>
+        -->
+        <!--add comment of cart/description of food or sth else using this
+        <label for="comment"></label>
+        <textarea id="comment" placeholder="comment" rows="3" cols="25"></textarea>
+        -->
+        <!--use this for food upload image
+        <lable for="file">food image:</lable>
+        <input type="file" id="file" accept="image/png, image/jpeg"
+        -->
+
+        <br>
+        <input type="reset">
+        <input type="submit">
+    </form>
+</body>
+</html>
