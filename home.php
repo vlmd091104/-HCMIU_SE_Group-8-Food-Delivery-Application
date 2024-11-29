@@ -1,3 +1,9 @@
+<?php
+    session_start();
+    include("connect.php");
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,17 +11,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IU Canteen</title>
     <link rel="icon" type="image/png" href="images/iu_favicon.png">
-    <link rel="stylesheet" href="style/styleindex.css">
+    <link rel="stylesheet" href="stylehome.css">
 </head>
 <body>
     <header>
         <nav>
             <ul>
-                <li><a href="index.html" title="Home"><pre>Home</pre></a></li>
-                <li><a href="about_us.html" title="About Us"><pre>About Us</pre></a></li>
+                <li><a href="home.php" title="Home"><pre>Home</pre></a></li>
+                <li><a href="about_us.php" title="About Us"><pre>About Us</pre></a></li>
                 <li><a href="mailto:vuleminhduc19@gmail.com" target="_blank" title="Contact"><pre>Contact</pre></a></li>
-                <li><a href="sign_up.html" title="Sign Up"><pre>Sign Up</pre></a></li>
-                <li><a href="sign_in.html" title="Sign In"><pre>Sign In</pre></a></li>
+                <li><a href="index.php" title="Sign In"><pre>Sign In</pre></a></li>
             </ul>
         </nav>
     </header>

@@ -3,13 +3,16 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    font-weight: bold;
 }
 
 header {
     background-color: #6200ea;
     color: white;
     padding: 10px 0;
-    text-align: center; /* Center the main title */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 nav {
@@ -26,6 +29,7 @@ nav ul {
 
 nav ul li {
     margin: 0 100px; /* Space between items */
+    display:flex;
 }
 
 nav a {
