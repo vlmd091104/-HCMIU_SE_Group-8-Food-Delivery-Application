@@ -57,7 +57,7 @@
                 <p>Shipping: <span>5000 VND</span></p>
                 <p>Promotion: <span>0 VND</span></p>
                 <p class="total">Total: <span>40000 VND</span></p>
-                <a href="completion.php"><button class="continue-button">Continue to payment →</button></a>
+                <a href="pmp.html"><button class="continue-button">Continue to payment →</button></a>
             </div>
         </div>
     </main>
